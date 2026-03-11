@@ -114,14 +114,24 @@ Payload
 
 # 🎥 System Demonstration
 
-Replace `YOUR_VIDEO_ID` with your demo video.
+<h2 align="center">🎥 System Demonstration</h2>
 
-[![AAYA-MESH Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID)
+<p align="center">
+  Watch the full demonstration of the <b>AAYA-MESH LoRa Mesh Telemetry Platform</b>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/nA_8Bo85mrw">
+    <img src="https://img.youtube.com/vi/nA_8Bo85mrw/0.jpg" width="600">
+  </a>
+</p>
 
 ---
 
 ## 🖥 Boot Screen
-![Boot Screen](docs/boot-screen.jpg)
+<p align="center">
+  <img src="docs/images/image-1.jpg" width="45%">
+</p>
 
 ---
 
@@ -132,7 +142,9 @@ Replace `YOUR_VIDEO_ID` with your demo video.
 - System uptime
 - Network status
 
-![OLED Dashboard](docs/oled-dashboard.jpg)
+<p align="center">
+  <img src="docs/images/oled_screen.jpg" width="400">
+</p>
 
 ---
 
