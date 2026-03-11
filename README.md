@@ -112,6 +112,40 @@ Payload
 
 ---
 
+# 🎥 System Demonstration
+
+<p align="center">
+  Watch the full demonstration of the <b>AAYA-MESH LoRa Mesh Telemetry Platform</b>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/nA_8Bo85mrw">
+    <img src="https://img.youtube.com/vi/nA_8Bo85mrw/0.jpg" width="600">
+  </a>
+</p>
+
+---
+
+## 🖥 Boot Screen
+<p align="center">
+  <img src="docs/images/image-1.jpg" width="45%">
+</p>
+
+---
+
+## 📟 OLED Dashboard
+
+- Device mode (Sink / Collector)
+- Node ID
+- System uptime
+- Network status
+
+<p align="center">
+  <img src="docs/images/oled_screen.jpg" width="400">
+</p>
+
+---
+
 # 🛠 Installation
 
 ### Install Required Libraries
