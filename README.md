@@ -1,5 +1,5 @@
 
-# AAYA-MESH SYSTEM
+# 🚀 AAYA-MESH SYSTEM
 ### Distributed LoRa Mesh Telemetry Platform
 
 ![Version](https://img.shields.io/badge/version-2.1.4-blue)
@@ -7,21 +7,20 @@
 ![Protocol](https://img.shields.io/badge/network-LoRa-orange)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-AAYA-MESH is a distributed long-range telemetry system designed for reliable environmental monitoring and sensor networking.
+AAYA-MESH is a **distributed long-range telemetry system** designed for **reliable environmental monitoring and sensor networking**.
 
 The platform combines:
-
 - LoRa mesh communication
 - Edge sensor nodes
 - Sink gateway architecture
 - MQTT data streaming
 - Web-based monitoring dashboards
 
-It is built for low-power, long-range, and fault-tolerant data transmission.
+Built for **low‑power**, **long‑range**, and **fault‑tolerant data transmission**.
 
 ---
 
-# System Architecture
+# 🧠 System Architecture
 
 ```mermaid
 flowchart LR
@@ -33,7 +32,7 @@ D --> E[Dashboard]
 
 ---
 
-# Network Topology
+# 🌐 Network Topology
 
 ```mermaid
 graph TD
@@ -45,29 +44,7 @@ Collector4[Collector Node 4] --- Sink
 
 ---
 
-# System Layers
-
-```mermaid
-flowchart TD
-Hardware --> Sensors
-Sensors --> MeshNetwork
-MeshNetwork --> Gateway
-Gateway --> Cloud
-Cloud --> Dashboard
-```
-
-| Layer | Description |
-|------|-------------|
-| Hardware | Microcontroller, LoRa radio, sensors |
-| Sensor | Sensor data acquisition |
-| Mesh Network | Packet transport across nodes |
-| Gateway | Sink node forwarding to internet |
-| Cloud | MQTT data pipeline |
-| Dashboard | Visualization and monitoring |
-
----
-
-# Hardware Architecture
+# 🔧 Hardware Architecture
 
 ```mermaid
 flowchart LR
@@ -86,17 +63,17 @@ ESP32 --> OLED[SSD1306 OLED Display]
 
 ---
 
-# Implemented Features
+# ⚙ Implemented Features
 
 | # | Category | Feature | Description |
 |---|---|---|---|
-|1|Network|LoRa Mesh Communication|Long-range node communication|
-|2|Network|Multi-node architecture|Multiple collectors supported|
+|1|Network|LoRa Mesh Communication|Long‑range node communication|
+|2|Network|Multi‑node architecture|Multiple collectors supported|
 |3|Reliability|ACK confirmation|Sender waits for ACK|
 |4|Reliability|Packet retry|Automatic retransmission|
 |5|Reliability|Duplicate protection|Avoid duplicate processing|
 |6|Reliability|Checksum verification|Ensures packet integrity|
-|7|Storage|Power-cut safe queue|SPIFFS packet storage|
+|7|Storage|Power‑cut safe queue|SPIFFS packet storage|
 |8|Storage|Queue restore|Recover packets after reboot|
 |9|Gateway|Sink gateway|Bridge LoRa → Internet|
 |10|Gateway|MQTT communication|Publishes sensor data|
@@ -108,7 +85,7 @@ ESP32 --> OLED[SSD1306 OLED Display]
 
 ---
 
-# MQTT Data Format
+# 📡 MQTT Data Format
 
 Topic
 
@@ -135,43 +112,20 @@ Payload
 
 ---
 
-# Example Serial Output
+# 🎥 System Demonstration
 
-```
-Packet Manager Ready
-Sensor Data Packet
-Temp: 25.50
-Humidity: 60.00
-Enqueued | Queue size: 1
-ACK Sent
-MQTT Published
-```
-
----
-
-## 🎥 System Demonstration
-
-The following media shows the working of the **AAYA-MESH LoRa Mesh Telemetry System** including system boot, OLED interface, and live data transmission.
-
-### ▶ Full System Demo
-
-Watch the complete demonstration video:
+Replace `YOUR_VIDEO_ID` with your demo video.
 
 [![AAYA-MESH Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID)
 
 ---
 
 ## 🖥 Boot Screen
-
-The system displays the **AAYA-MESH boot interface** on startup showing the device mode, node ID, and firmware version.
-
 ![Boot Screen](docs/boot-screen.jpg)
 
 ---
 
 ## 📟 OLED Dashboard
-
-The OLED dashboard provides real-time system information including:
 
 - Device mode (Sink / Collector)
 - Node ID
@@ -182,43 +136,37 @@ The OLED dashboard provides real-time system information including:
 
 ---
 
-# Installation
+# 🛠 Installation
 
 ### Install Required Libraries
-
 - RadioLib
 - Adafruit SSD1306
 - PubSubClient
 - ArduinoJson
 
 ### Flash Firmware
-
 Upload firmware to:
-
 - Collector nodes
 - Sink gateway
 
 ### Start MQTT Broker
-
 ```
 mosquitto -v
 ```
 
 ### Start Dashboard
-
 ```
 node-red
 ```
 
-Open:
-
+Open dashboard:
 ```
 http://localhost:1880/ui
 ```
 
 ---
 
-# Project Structure
+# 📁 Project Structure
 
 ```
 /src
@@ -236,8 +184,7 @@ http://localhost:1880/ui
 
 ---
 
-# Applications
-
+# 🌍 Applications
 - Forest fire monitoring
 - Smart agriculture
 - Environmental monitoring
@@ -246,13 +193,13 @@ http://localhost:1880/ui
 
 ---
 
-# License
-
+# 📜 License
 MIT License
 
 ---
 
-# Author
+# 👨‍💻 Author
 
-AAYA-MESH SYSTEM  
-Developed by Team R.P
+### ✦ Aadil Badhra
+
+Creator of **AAYA‑MESH SYSTEM**
