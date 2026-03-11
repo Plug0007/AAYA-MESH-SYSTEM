@@ -114,8 +114,6 @@ Payload
 
 # 🎥 System Demonstration
 
-<h2 align="center">🎥 System Demonstration</h2>
-
 <p align="center">
   Watch the full demonstration of the <b>AAYA-MESH LoRa Mesh Telemetry Platform</b>
 </p>
